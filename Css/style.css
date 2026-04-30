@@ -1,0 +1,2149 @@
+/* Main style Over the web site */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+}
+
+
+
+
+.middel {
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+
+
+.contaner {
+    width: 80%;
+    margin: auto;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.733);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+h1 {
+    font-size: 55px;
+}
+
+
+p {
+    font-size: 16px;
+    color: gray;
+
+}
+
+li {
+    font-size: 16px;
+    color: #5A5A5A;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+i {
+    color: #99AD7A;
+}
+
+/* The div wuch  about of line  after h2 */
+.line {
+    height: 3px;
+
+    width: 70px;
+    margin: auto;
+    margin-top: 8px;
+    background-color: #99AD7A;
+}
+
+/* the div in the middle of three divs  */
+
+
+.learn-more {
+
+    font-weight: 700;
+    text-decoration: none;
+    color: #99AD7A;
+
+
+}
+
+
+/*****************Start header********************/
+
+.header {
+    background-color: rgb(153, 173, 122, 0.8);
+    height: 60px;
+    width: 100%;
+
+    padding: 0px 40px;
+    position: fixed;
+    z-index: 15;
+
+
+}
+
+
+
+.header input {
+    width: 240px;
+    height: 30px;
+    border-radius: 40px;
+    margin-top: 15px;
+    border: none;
+
+}
+
+.search-div {
+    display: inline;
+    position: relative;
+
+}
+
+.header .fa-magnifying-glass {
+    color: #000000;
+    position: absolute;
+    left: 10px;
+    top: 3px;
+}
+
+.header .fa-house {
+    color: #FFF8EC;
+    margin-right: 20px;
+    font-size: 25px;
+    margin-top: 15px;
+
+}
+
+
+.header ul {
+    float: right;
+    margin-top: 15px;
+}
+
+.header li {
+
+    display: inline;
+
+    margin-left: 15px;
+
+}
+
+
+
+
+.header .sub-minu li {
+
+    display: block;
+
+
+
+}
+
+.header .sub-minu {
+    position: relative;
+
+}
+
+
+.header .sub-minu:hover ul {
+
+    display: block;
+}
+
+.header .sub-minu ul {
+    background-color: #FFF8EC;
+
+    min-width: 150px;
+    padding: 10px 0px;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+
+    display: none;
+    border: solid #99AD7A 1px;
+}
+
+
+
+
+
+
+
+.header .sub-minu ul a {
+    color: #99AD7A;
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+
+}
+
+.header .sub-minu li {
+    color: #000;
+    padding: 8px 0px;
+
+}
+
+
+
+.header .sub-minu ul a::after {
+
+
+
+
+    background-color: #99AD7A;
+
+    left: 1px;
+}
+
+
+
+.header li a {
+    color: #FFF8EC;
+    text-decoration: none;
+    font-weight: 700;
+    position: relative;
+}
+
+.header ul li a::after {
+
+    content: "";
+    position: absolute;
+    bottom: -5px;
+
+    left: 2px;
+
+    width: 0px;
+
+
+    height: 2px;
+    background-color: #FFF8EC;
+    border-radius: 500px;
+
+}
+
+.header  ul li a:hover::after {
+    transition: 1s;
+
+
+    width: 98%;
+
+}
+
+/***************** Frist Section ********************/
+
+
+.frist-section {
+    height: 100vh;
+
+    background: url('../Images/background main .jpg') no-repeat center 20% / cover;
+
+    width: 100%;
+    position: relative;
+}
+
+
+
+.main-content {
+    width: 60%;
+
+    color: #FFF8EC;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
+.main-content p {
+    margin: 10px 0px;
+
+    color: #FFF8EC;
+}
+
+.main-content button {
+    background-color: #99AD7A;
+    padding: 15px 30px;
+    color: #FFF8EC;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+
+}
+
+.main-content .main-button-one:hover {
+    opacity: 0.4;
+
+}
+
+.main-content .main-button-two {
+    background-color: #FFF8EC;
+
+    color: #99AD7A;
+
+
+
+}
+
+.main-content .main-button-two:hover {
+    opacity: 0.4;
+
+}
+
+
+
+/***************** Section Tow********************/
+
+.section2 {
+    overflow: hidden;
+    padding: 100px 0px;
+    width: auto;
+    height: auto;
+
+}
+
+
+
+
+
+
+.section2 h2 {
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.section2 .div1 {
+
+    width: 30%;
+    padding: 30px;
+    border: solid #99AD7A 2px;
+    text-align: center;
+    border-radius: 15px;
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+
+
+
+}
+
+
+.section2 .div1::after {
+    content: "";
+    border-radius: 13px;
+    background-color: rgba(152, 173, 122, 0.812);
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+
+    z-index: -1;
+
+}
+
+.section2 .div1:hover::after {
+    opacity: 1;
+
+    display: block;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+
+.section2 .div1:hover {
+    transition: 0.4s;
+    color: #FFF8EC;
+
+}
+
+.section2 .div1:hover p {
+    transition: 0.4s;
+    color: #FFF8EC;
+
+}
+
+
+
+.section2 .div1:hover i {
+    transition: 0.4s;
+    color: #FFF8EC;
+}
+
+.section2 .div1:hover a {
+    transition: 0.4s;
+    color: #FFF8EC;
+
+}
+
+
+
+.section2 p {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.section2 i {
+
+    font-size: 20px;
+
+}
+
+/***************** Section Three ********************/
+
+.section3 {
+    overflow: hidden;
+    padding: 80px 0px;
+
+    width: auto;
+    height: auto;
+    background-color: #FFF8EC;
+}
+
+
+
+.section3 h2 {
+
+    text-align: center;
+
+
+}
+
+
+
+.section3 .div1 .overlay {
+    padding: 40px;
+    display: none;
+
+
+}
+
+.section3 .div1:hover .overlay {
+    display: block;
+
+    background-color: rgba(0, 0, 0, 0.393);
+
+}
+
+
+.section3 .div1 {
+    position: relative;
+    background: no-repeat center/cover;
+    color: #FFF8EC;
+    width: 30%;
+    height: 200px;
+
+
+    margin-top: 50px;
+    text-align: center;
+    float: left;
+}
+
+
+.section3 .product1 {
+    background-image: url(../Images/vv.jpg);
+
+}
+
+.section3 .product2 {
+    background-image: url(../Images/porduct-tow.jpg);
+
+}
+
+
+.section3 .product3 {
+    background-image: url(../Images/porduct-three.jpg);
+
+}
+
+.section3 .product4 {
+    background-image: url(../Images/Duffel.webp);
+
+}
+
+
+.section3 .product5 {
+    background-image: url(../Images/Crossbody-bag.jpg);
+
+}
+
+.section3 .product6 {
+    background-image: url(../Images/porguct-sex.jpg);
+
+}
+
+
+
+
+
+
+
+
+
+.section3 p {
+
+    margin-bottom: 10px;
+    color: #FFF8EC;
+}
+
+
+
+.section3 .icon-background {
+    text-align: center;
+    background-color: #FFF8EC;
+    padding: 5px 10px;
+    border-radius: 4px;
+    width: 50px;
+    height: 30px;
+    font-size: 20px;
+}
+
+/***************** Section four  ********************/
+.section4 {
+    overflow: hidden;
+    padding: 100px 0px;
+    width: auto;
+    height: auto;
+
+}
+
+.section4 .line {
+
+    margin-top: 12px;
+
+}
+
+
+
+
+.section4 h2 {
+
+    text-align: center;
+
+}
+
+
+
+
+
+.section4 .div1 {
+
+    width: 30%;
+    padding: 15px;
+    border: solid #99AD7A 2px;
+
+    border-radius: 15px;
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+
+
+
+}
+
+
+.section4 .div1::after {
+    content: "";
+    border-radius: 13px;
+    background-color: rgba(152, 173, 122, 0.812);
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    height: 0%;
+    width: 0%;
+    opacity: 0;
+
+    z-index: -1;
+
+}
+
+.section4 .div1:hover::after {
+    opacity: 1;
+
+    display: block;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+
+.section4 .div1:hover,
+.section4 .div1:hover p {
+    transition: 0.4s;
+    color: #FFF8EC;
+
+}
+
+.section4 .div1:hover i {
+    transition: 0.4s;
+    color: #FFF8EC;
+}
+
+.section4 .div1:hover a {
+    transition: 0.4s;
+    color: #FFF8EC;
+
+}
+
+
+.section4 p {
+
+    margin-bottom: 10px;
+    margin-left: 37px;
+
+}
+
+.section4 h3 {
+
+    margin-left: 35px;
+
+
+    margin-bottom: 10px;
+}
+
+.section4 .div1 .learn-more {
+
+    font-weight: 600;
+    text-decoration: none;
+    color: #99AD7A;
+
+
+}
+
+
+.section4 i {
+    position: absolute;
+    top: 15px;
+    font-size: 25px;
+
+
+
+}
+
+/***************** Section five  ********************/
+
+.section5 {
+
+    background-color: #FFF8EC;
+
+    overflow: hidden;
+    padding: 100px 0px;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+
+}
+.section5 .line{
+
+margin-bottom: 10px;
+}
+
+.content-left {
+    float: left;
+    width: 50%;
+}
+
+.content-right {
+    float: right;
+    width: 50%;
+    position: relative;
+}
+
+.content-right img {
+    float: right;
+    height: 500px;
+    width: auto;
+    margin-top: -100px;
+    /* display: none; */
+
+}
+
+.section5 .line {
+    margin: 0;
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.content-right .icons {
+    position: absolute;
+    bottom: -30px;
+    right: 7.5rem;
+
+}
+
+.content-right span {
+    margin-right: 10px;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 2px #99AD7A;
+
+
+}
+
+.content-right span:hover,
+.content-right .active-icon {
+    background-color: #99AD7A;
+    transition: 0.2s;
+
+
+}
+
+
+
+
+
+.content-left ul li {
+    position: relative;
+    padding-left: 20px;
+    list-style: none;
+    margin: 20px 0px;
+
+}
+
+.content-left ul li::before {
+    content: "\f14a";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    color: #99AD7A;
+}
+
+
+/***************** Section sex  ********************/
+.section6 {
+
+    min-height: 400px;
+
+
+
+    color: #FFF8EC;
+    position: relative;
+
+    background: url(/Images/productone.jpg) no-repeat fixed top center / cover;
+}
+
+.section6 p,
+.section6 i {
+
+
+    color: #FFF8EC;
+}
+
+
+
+.section6 .line {
+
+    background-color: #FFF8EC;
+
+}
+
+
+
+
+.section6 h2 {
+
+    text-align: center;
+
+}
+
+
+
+
+
+.section6 .div1 {
+
+    text-align: center;
+
+
+    width: 25%;
+    float: left;
+    margin-top: 50px;
+
+
+
+
+}
+
+
+.section6 .overlay {
+
+    overflow: hidden;
+    padding: 100px 0px;
+    background-color: rgba(0, 0, 0, 0.46);
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+
+
+.section6 h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.section6 .div1 .learn-more {
+
+    font-weight: 600;
+    text-decoration: none;
+    color: #99AD7A;
+
+
+}
+
+
+
+.section6 i {
+
+
+    font-size: 45px;
+    margin-bottom: 10px;
+
+}
+
+
+/***************** Section seven  ********************/
+
+
+.section7 {
+    overflow: hidden;
+    padding: 100px 0px;
+    width: auto;
+    height: auto;
+
+}
+
+
+
+
+
+
+.section7 h2 {
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+.section7 .div1 {
+
+    width: 30%;
+    padding: 30px;
+    border: solid #99AD7A 2px;
+    text-align: center;
+    border-radius: 15px;
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+
+
+
+}
+
+
+
+
+.section7 .price {
+
+    height: 100px;
+    width: 100px;
+    margin: 20px auto;
+
+
+    border: solid #99AD7A 2px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.section7 .price span {
+    font-weight: 600;
+    display: block;
+    margin-top: 20px;
+
+
+    font-size: 30px;
+
+}
+
+
+
+.section7 .div1 ul {
+
+
+    margin: 20px 0px;
+
+
+}
+
+.section7 .div1 li {
+
+    list-style: none;
+
+    margin: 10px 0px;
+    color: #99AD7A;
+
+
+}
+
+
+
+
+
+.section7 .div1  .learn-more {
+
+    color: #99AD7A;
+
+      margin: 5px 0px;
+    padding: 12px 35px;
+    border-radius: 5px;
+    background-color: #ffff;
+    border: 2px #99AD7A solid;
+
+     font-weight: 600;
+    text-decoration: none;
+    color: #99AD7A;
+    display: inline-block;
+
+
+
+
+
+}
+
+
+
+
+.section7 .div1::after {
+    content: "";
+    border-radius: 13px;
+    background-color: rgba(152, 173, 122, 0.812);
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+
+    z-index: -1;
+
+}
+
+.section7 .div1:hover::after {
+    opacity: 1;
+
+    display: block;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+
+.section7 .div1:hover,
+.section7 .div1:hover p,
+.section7 .div1:hover li {
+    transition: 0s;
+    color: #FFF8EC;
+
+}
+
+.section7 .div1:hover .price {
+
+    border-color: #FFF8EC;
+}
+
+
+
+
+
+
+
+
+.section7 p {
+
+    margin-bottom: 10px;
+
+}
+
+
+
+
+.section7 i {
+
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+/***************** Section eight  ********************/
+.section8 {
+
+    min-height: 400px;
+
+    overflow: hidden;
+
+    color: #FFF8EC;
+    position: relative;
+
+    background: url(/Images/omar-tursic-HDujKDk77v0-unsplash.jpg) no-repeat fixed center / cover;
+}
+
+
+
+
+
+
+.section8 .div1 img {
+    height: 90px;
+    width: 90px;
+    margin-bottom: -75px;
+    border-radius: 50%;
+
+}
+
+
+.section8 .div1 .name-jop h3 {
+    margin-bottom: 5px;
+}
+
+.section8 .div1 .name-jop {
+
+
+
+    /* padding-left: 150px; */
+
+}
+
+
+
+.section8 .div1 .name-jop span,
+
+.section8 .div1 .name-jop h3 {
+    margin-left: 100px;
+
+}
+
+
+
+.section8 .div1 {
+
+
+
+    width: 45%;
+    float: left;
+    margin-top: 50px;
+    margin-right: 5%;
+
+
+
+}
+
+
+.section8 p {
+    margin-top: 30px;
+
+
+    color: #FFF8EC;
+}
+
+
+
+
+.section8 .right-div {
+
+
+
+    width: 45%;
+    margin-top: 50px;
+
+
+
+
+}
+
+
+
+.section8 .overlay {
+
+    overflow: hidden;
+    padding: 100px 0px;
+    background-color: rgba(0, 0, 0, 0.46);
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+.section8 h3 {
+    font-size: 25px;
+
+}
+
+
+
+
+.section8 i {
+
+
+    font-size: 45px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************** Section Nine  ********************/
+
+
+.section9 {
+    overflow: hidden;
+    padding: 100px 0px;
+    width: auto;
+    height: auto;
+
+}
+
+
+
+
+
+
+.section9 h2 {
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+.section9 .div1 img {
+    width: 100%;
+    border-radius: 4px;
+
+    z-index: 1px;
+}
+
+.section9 .div1 {
+
+    width: 30%;
+    padding: 15px;
+    border: solid #99AD7A 2px;
+    text-align: center;
+    border-radius: 15px;
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+
+
+
+}
+
+
+
+
+
+
+.section9 .div1 p {
+
+    margin-top: 3px;
+    font-weight: 500;
+
+
+}
+
+
+.section9 .div1 h3 {
+
+    margin-top: 5px;
+    font-weight: 700;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.section9 .div1::after {
+    content: "";
+    border-radius: 13px;
+    background-color: rgba(152, 173, 122, 0.812);
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+
+    z-index: -1;
+
+}
+
+
+.section9 .div1:hover::after {
+    opacity: 1;
+
+    display: block;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.section9 .div1:hover,
+
+.section9 .div1:hover p,
+
+.section9 .div1:hover li {
+    transition: 0.2s;
+    color: #FFF8EC;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section9 .div1 {
+
+    position: relative;
+}
+
+.section9 .icons-absolute {
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2px;
+}
+
+.section9 .div1 i {
+
+    padding: 10px;
+    margin-bottom: 3px;
+
+    background-color: #FFF8EC;
+    display: none;
+    border-radius: 4px;
+
+}
+
+.section9 .div1 a {
+
+    text-decoration: none;
+}
+
+.section9 .div1:hover i {
+
+    display: block;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************** Section eight  ********************/
+.section8 {
+
+    min-height: 400px;
+
+    overflow: hidden;
+
+    color: #FFF8EC;
+    position: relative;
+
+    background: url(/Images/omar-tursic-HDujKDk77v0-unsplash.jpg) no-repeat fixed center / cover;
+}
+
+
+
+
+
+
+.section8 .div1 img {
+    height: 90px;
+    width: 90px;
+    margin-bottom: -75px;
+    border-radius: 50%;
+
+}
+
+
+.section8 .div1 .name-jop h3 {
+    margin-bottom: 5px;
+}
+
+.section8 .div1 .name-jop {
+
+
+
+    /* padding-left: 150px; */
+
+}
+
+
+
+.section8 .div1 .name-jop span,
+
+.section8 .div1 .name-jop h3 {
+    margin-left: 100px;
+
+}
+
+
+
+.section8 .div1 {
+
+
+
+    width: 45%;
+    float: left;
+    margin-top: 50px;
+    margin-right: 5%;
+
+
+
+}
+
+
+.section8 p {
+    margin-top: 30px;
+
+
+    color: #FFF8EC;
+}
+
+
+
+
+.section8 .right-div {
+
+
+
+    width: 45%;
+    margin-top: 50px;
+
+
+
+
+}
+
+
+
+.section8 .overlay {
+
+    overflow: hidden;
+    padding: 100px 0px;
+    background-color: rgba(0, 0, 0, 0.46);
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+
+
+
+
+.section8 h3 {
+    font-size: 25px;
+
+}
+
+
+
+
+.section8 i {
+
+
+    font-size: 45px;
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************** Section Nine  ********************/
+
+
+.section9 {
+    overflow: hidden;
+    padding: 100px 0px;
+    width: auto;
+    height: auto;
+
+}
+
+
+
+
+
+
+.section9 h2 {
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+.section9 .div1 img {
+    width: 100%;
+    border-radius: 4px;
+
+    z-index: 1px;
+}
+
+.section9 .div1 {
+
+    width: 30%;
+    padding: 15px;
+    border: solid #99AD7A 2px;
+    text-align: center;
+    border-radius: 15px;
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+
+
+
+}
+
+
+
+
+
+
+.section9 .div1 p {
+
+    margin-top: 3px;
+    font-weight: 500;
+
+
+}
+
+
+.section9 .div1 h3 {
+
+    margin-top: 5px;
+    font-weight: 700;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.section9 .div1::after {
+    content: "";
+    border-radius: 13px;
+    background-color: rgba(152, 173, 122, 0.812);
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+
+    z-index: -1;
+
+}
+
+
+.section9 .div1:hover::after {
+    opacity: 1;
+
+    display: block;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.section9 .div1:hover,
+
+.section9 .div1:hover p,
+
+.section9 .div1:hover li {
+    transition: 0.2s;
+    color: #FFF8EC;
+
+}
+
+
+
+
+
+
+
+
+
+
+.section9 .div1 {
+
+    position: relative;
+}
+
+.section9 .icons-absolute {
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2px;
+}
+
+.section9 .div1 i {
+
+    padding: 10px;
+    margin-bottom: 3px;
+
+    background-color: #FFF8EC;
+    display: none;
+    border-radius: 4px;
+
+}
+
+.section9 .div1 a {
+
+    text-decoration: none;
+}
+
+.section9 .div1:hover i {
+
+    display: block;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************** Section Nine  ********************/
+
+
+.section9 {
+    overflow: hidden;
+    padding: 100px 0px;
+    width: auto;
+    height: auto;
+
+}
+
+
+
+
+
+
+.section9 h2 {
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+.section9 .div1 img {
+    width: 100%;
+    border-radius: 4px;
+
+    z-index: 1px;
+}
+
+.section9 .div1 {
+
+    width: 30%;
+    padding: 15px;
+    border: solid #99AD7A 2px;
+    text-align: center;
+    border-radius: 15px;
+    width: 30%;
+    float: left;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+
+
+
+}
+
+
+
+
+
+
+.section9 .div1 p {
+
+    margin-top: 3px;
+    font-weight: 500;
+
+
+}
+
+
+.section9 .div1 h3 {
+
+    margin-top: 5px;
+    font-weight: 700;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.section9 .div1::after {
+    content: "";
+    border-radius: 13px;
+    background-color: rgba(152, 173, 122, 0.812);
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+
+    z-index: -1;
+
+}
+
+
+.section9 .div1:hover::after {
+    opacity: 1;
+
+    display: block;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.section9 .div1:hover,
+
+.section9 .div1:hover p,
+
+.section9 .div1:hover li {
+    transition: 0.2s;
+    color: #FFF8EC;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section9 .div1 {
+
+    position: relative;
+}
+
+.section9 .icons-absolute {
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 2px;
+}
+
+.section9 .div1 i {
+
+    padding: 10px;
+    margin-bottom: 3px;
+
+    background-color: #FFF8EC;
+    display: none;
+    border-radius: 4px;
+
+}
+
+.section9 .div1 a {
+
+    text-decoration: none;
+}
+
+.section9 .div1:hover i {
+
+    display: block;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************** Section Nine  ********************/
+
+
+.section10 {
+    overflow: hidden;
+    padding: 80px 0px;
+    width: auto;
+    height: auto;
+
+}
+
+
+
+
+
+
+.section10 h2 {
+
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+.section10 .div1 img {
+    width: 100%;
+    border-radius: 4px;
+
+    z-index: 1px;
+}
+
+.section10 .div1 {
+
+    width: 30%;
+    padding: 15px;
+    border: solid #99AD7A 2px;
+    text-align: center;
+    border-radius: 15px;
+
+    float: left;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+
+
+
+}
+
+
+
+
+
+
+.section10 .div1 p {
+
+    margin-top: 3px;
+    font-weight: 500;
+
+
+}
+
+
+.section10 .div1 h3 {
+
+    margin-top: 5px;
+    font-weight: 700;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.section10 .div1::after {
+    content: "";
+    border-radius: 13px;
+    background-color: rgba(152, 173, 122, 0.812);
+    position: absolute;
+    top: 0;
+
+    left: 0;
+    height: 0%;
+    width: 100%;
+    opacity: 0;
+
+    z-index: -1;
+
+}
+
+
+.section10 .div1:hover::after {
+    opacity: 1;
+
+    display: block;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.section10 .div1:hover,
+
+.section10 .div1:hover p,
+
+.section10 .div1:hover a,
+.section10 .div1:hover i {
+    transition: 0.2s;
+    color: #FFF8EC;
+
+}
+
+
+.section10 .div1 h3,
+
+.section10 .div1 p,
+
+.section10 .div1 a {
+    margin: 5px 0px;
+
+}
+
+
+.section10 .div1 img {
+    margin-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.section10 .div1 {
+
+    position: relative;
+}
+
+
+.section10 .div1 i {
+
+    margin-bottom: 3px;
+
+    margin-right: 3px;
+    border-radius: 4px;
+
+}
+
+
+
+
+.section10 .div1 .sharing {
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #99AD7A;
+
+}
+
+
+
+
+/***************** Footer  ********************/
+
+
+
+.section11 {
+    padding-top: 80px;
+
+     padding-bottom: 20px;
+
+    width: 100%;
+
+    background-color: #FFF8EC;
+    text-align: center;
+
+}
+
+
+.section11 i {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    padding-top: 18px;
+    color: #FFF8EC;
+
+
+    border-radius: 50%;
+
+    background-color: #99AD7A;
+
+
+}
+
+
+.section11 .copy-write {
+
+    color: #99AD7A;
+    margin-top: 10px;
+
+}
+
+.section11 .center {
+
+    margin: auto;
+
+    min-height: 200px;
+    width: 30%;
+
+
+    border-radius: 8px;
+
+
+    background: url(../Images/post-onee.jpg) no-repeat center/cover;
+
+}
